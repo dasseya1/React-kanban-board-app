@@ -3,8 +3,8 @@ import Card from './Card';
   
 export default class List extends Component {
     render() {
-        var cards = this.props.cardsList.map((card) => {
-            return <Card id={card.id}
+        var cards = this.props.cardsList.map((card, index) => {
+            return <Card key={index} id={card.id}
                       title={card.title}
                       description={card.description}
                       tasks={card.tasks} />
