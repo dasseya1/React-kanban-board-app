@@ -8,10 +8,10 @@ export default class KanbanBoard extends Component {
             <List id="todo" title="To Do" cardsList={
                 this.props.cardsList.filter((card) => card.status=== "todo")
             } />
-            <List id="todo" title="To Do" cardsList={
+            <List id="in-progress" title="In Progress" cardsList={
                 this.props.cardsList.filter((card) => card.status=== "in-progress")
             } />
-            <List id="todo" title="To Do" cardsList={
+            <List id="done" title="Done" cardsList={
                 this.props.cardsList.filter((card) => card.status=== "done")
             } />
         </div>
