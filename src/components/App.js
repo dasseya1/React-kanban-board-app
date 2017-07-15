@@ -13,7 +13,7 @@ const cardsList = [
     {
       id: 2,
       title: "Write some code",
-      description: "Code along with the samples in the book",
+      description: "Code along with the samples in the book at [github](https://github.com/dasseya1)",
       status: "todo",
       tasks: [
         {
