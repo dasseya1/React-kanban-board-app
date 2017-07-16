@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CheckList from './CheckList';
 import marked from 'marked';
+import PropTypes from 'prop-types';
 
 let titlePropType = (props, propName, componentName) => {
     if (props[propName]) {
